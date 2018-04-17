@@ -327,7 +327,7 @@ const Dialog = React.createClass<IDialogPropTypes, any>({
     }
     this.checkScrollbar();
     this.setScrollbar();
-    document.body.style.overflow = 'hidden';
+    //document.body.style.overflow = 'hidden';
     // this.adjustDialog();
   },
 
